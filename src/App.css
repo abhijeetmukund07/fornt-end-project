@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: 'Kalnia', serif;
+font-family: 'Raleway', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    background-image: linear-gradient(
+  45deg,
+  hsl(25deg 64% 71%) 0%,
+  hsl(24deg 63% 75%) 14%,
+  hsl(22deg 60% 78%) 25%,
+  hsl(21deg 55% 81%) 34%,
+  hsl(20deg 46% 84%) 42%,
+  hsl(16deg 42% 85%) 48%,
+  hsl(11deg 38% 86%) 54%,
+  hsl(6deg 32% 86%) 59%,
+  hsl(360deg 26% 87%) 63%,
+  hsl(348deg 23% 86%) 68%,
+  hsl(327deg 19% 84%) 72%,
+  hsl(289deg 15% 82%) 75%,
+  hsl(251deg 19% 82%) 79%,
+  hsl(227deg 24% 80%) 83%,
+  hsl(227deg 24% 80%) 86%,
+  hsl(227deg 24% 80%) 90%,
+  hsl(227deg 24% 80%) 95%,
+  hsl(227deg 24% 80%) 100%
+);
 }
