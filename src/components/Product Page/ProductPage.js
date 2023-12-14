@@ -22,8 +22,8 @@ function ProductPage(props) {
                 </div>
 
                 <div className="col-xs-12 col-md-6  product-details-box">
-                    <h5 className="title m-1 display-6" id='product-title'>Name:  {product&&product.title}</h5>
-                    <h4 className="lead display-6 m-1 text-dark" style={{fontWeight:"bolder"}}>Price:   {product&&product.price}</h4>
+                    <h5 className="title m-1 display-6" id='product-title' style={{fontWeight:"bolder"}}>Name:  {product&&product.title}</h5>
+                    <h4 className="lead display-6 m-1 text-dark" style={{fontWeight:"bolder"}}>Price: Rs.   {product&&product.price}</h4>
                     <p className='lead m-1 '> <u>Description:</u>  {product&&product.description}</p>
                     <h5 className="lead display-6 m-1"><u>Rating:</u>   {product&&product.rating.rate} </h5>
                 </div>
