@@ -12,7 +12,6 @@ function ProductPage(props) {
     let product = allProducts[id-1] 
     console.log(product)
   return (
-
     <div>
         <div className="container product-page-container m-5">
             <div className="row row-cols-md-2 row-cols-xs-1 m-5">
@@ -24,7 +23,7 @@ function ProductPage(props) {
 
                 <div className="col-xs-12 col-md-6  product-details-box">
                     <h5 className="title m-1 display-6" id='product-title'>Name:  {product&&product.title}</h5>
-                    <h4 className="lead display-6 m-1">Price:   {product&&product.price}</h4>
+                    <h4 className="lead display-6 m-1 text-dark" style={{fontWeight:"bolder"}}>Price:   {product&&product.price}</h4>
                     <p className='lead m-1 '> <u>Description:</u>  {product&&product.description}</p>
                     <h5 className="lead display-6 m-1"><u>Rating:</u>   {product&&product.rating.rate} </h5>
                 </div>
